@@ -1,0 +1,25 @@
+#sdk: "C:/MotorolaRhoMobileSuite2.0.5/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.3.3"
+sdkversion: "3.3.3"
+name: "AdventureWorksApp"
+version: 1.0
+vendor: "rhomobile"
+build: "debug"
+bbver: 4.6
+applog: "rholog.txt"
+iphone:
+  configuration: "Release"
+  sdk: "iphonesimulator5.0"
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.adventureworksapp"
+  BundleURLScheme: "adventureworksapp"
+wp:
+  productid: "4c120e61-bf18-0131-735e-74b7e2f7a8f0"
+symbian:
+  uid: "0xee95e7dc"
+android:
+  version: 2.1
+extensions:
+  - json
+  - another-extension

@@ -1,0 +1,31 @@
+<div data-role="page">
+  <div data-role="header" data-position="inline">
+    <h1>AdventureWorks</h1>
+    <a href="<%= Rho::RhoConfig.start_path %>" class="ui-btn-left" data-icon="home" data-direction="reverse" <%= "data-ajax='false'" if is_bb6 %>>
+      Home
+    </a>
+  </div>
+
+  <div data-role="content">
+      <div>
+      
+      <h1>AdventureWorks</h1>
+      694 Front Street<br/>
+      Lovingston, VA 22949
+      </div>
+      <div style ="text-align: center;">
+      <br/>
+      
+<img src="http://maps.googleapis.com/maps/api/staticmap?center=694%20Front%20Street%2022949&zoom=15&size=90x120&scale=2&maptype=roadmap&markers=size:tiny%7Ccolor:green%7C694%20Front%20Street%2022949&sensor=false">      
+      </div>
+      </div>
+      
+<div data-role="footer" data-position="fixed">
+      <h4 align="center"> Contact AdventureWorks</h4>
+      <div align="center" data-role="controlgroup" data-mini="true" data-type="horizontal">
+      <a href="tel:4345551212" data-role="button">Call </a>
+      <a href="http://www.trainingforce.com/" data-role="button">Web</a>
+      <a href="mailto:info@trainingforce.com" data-role="button">Email </a>
+      </div>   
+  </div>
+</div>

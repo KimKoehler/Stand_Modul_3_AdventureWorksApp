@@ -1,0 +1,23 @@
+<div data-role="page" data-add-back-btn="false">
+
+  <div data-role="header" data-position="inline">
+<h1>Customer Detail</h1>
+    <a href="<%= url_for :action => :index %>" class="ui-btn-left" data-icon="arrow-l" data-direction="reverse">
+      Back
+    </a>
+    <a href="<%= url_for :action => :edit, :id => @customer.object %>" class="ui-btn-right" data-icon="star">
+      Edit
+    </a>
+  </div>
+
+  <div data-role="content">
+      <h1><%= @customer.companyname%></h1> 
+      <div>
+      Customer ID: <%= @customer.companyid%><br/>
+      Email: <%= @customer.email%>
+    
+      
+   
+  </div>
+
+</div>
